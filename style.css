@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 3rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 52);
+    margin-right: -35px;
+    font-family: 'Oswald', sans-serif;
+}
+.btn{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    background-color: rgb(248, 26, 52);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main1{
+    background-image: url("img/section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
+.main1 h1{
+    font-size: 4rem;
+    font-weight: 700;
+    
+}
+.section1-btn{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 52);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.section1-btn:hover{
+    background-color: rgb(250, 3, 32);
+    transition: 0.5s;
+}
+.grapes{
+    margin-top: 25px;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+}
+.girl{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("img/red.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+.girl h1{
+    font-family: 'MonteCarlo', cursive;
+}
+.last{
+    background-color: black;
+    color: white;
+}
+.last-btn{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.last input{
+    background-color: black;
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+.last placeholder{
+    color: white;
+}
+.last p{
+    margin:0;
+}
